@@ -8,6 +8,6 @@ VetClix is a comprehensive Veterinary Management Software (VMS) suite designed t
 
 ## History of VetClix
 
-The very first version of VetClix is called `VetHub`, which is developed at 2021 in super urgent for specifically using with Pet Town Animal Hospital to reduce the cost of purchasing VMS software. The `VetHub` was developed using Laravel Lumen (Lightweight Laravel) as its API, and using Next.js to serve its front-end. The infrastructure was using the traditional linux server (Ubuntu) by installing HestiaCP to manage the server. The PostgreSQL database was used as its primary database.
+The very first version of VetClix was called VetHub, developed back in 2021 under super tight deadlines for exclusive use at Pet Town Animal Hospital. The goal was to cut costs on purchasing VMS software. VetHub was built using Laravel Lumen (a lightweight version of Laravel) for the API, and Next.js for the front end. It ran on a traditional Linux server (Ubuntu) with HestiaCP for server management, and PostgreSQL as the primary database.
 
-As it was developed in the urgent manner, the code base was super buggy, as well as a bad design, so it is a better choice to develop a whole new application, called VetClix, instead of modifying the existed application.
+Since it was developed in such a rush, the codebase was full of bugs, and the design wasn’t great. So instead of trying to fix it, we decided it was better to build a brand-new application—VetClix.
