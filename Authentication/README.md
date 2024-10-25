@@ -4,6 +4,8 @@ On VetClix, it uses the combination of Laravel Authentication, Laravel Fortify, 
 
 ## Concepts
 
-On web application, the Laravel Authentication is used to authenticate the user's credential. Once they are logging in, the Laravel Fortify will take the responsibility to check the credential, if it is correct, the system will set the authenticated session, and generate the Laravel Sanctum token, which contains the access permissions, and store it in the separated session.
+On web application, the Laravel Authentication is used to authenticate the user's credential. Once they are logging in, the Laravel Fortify will take the responsibility to check the credential, if it is correct, the system will set the authenticated session, and generate the Laravel Sanctum token, which contains the access permissions, and store it in the separated session variable.
 
-After the user is authenticated, the user can communicate with the API by attaching token with the Authentication Bearer header to the API endpoints, and they should be able to access the resource from it.
+After the user is authenticated, the user can communicate with the API by attaching token with the Authentication Bearer header to the API endpoints, which call as `API Token`, and they should be able to access the resource from it.
+
+In conclusion, VetClix authenticate users based on generated API token. If the API token expires, the authenticated session of the users will be terminated as well.
